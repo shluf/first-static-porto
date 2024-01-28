@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Salis Haidar | Home</title>
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <div class="app">
+    <header class="header" id="main-nav">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" class="logo-img" alt="logo" />
+      </a>
+      <nav class="navigation">
+        <ul class="navigation-list" id="navigation-list">
+          <li class="navigation-item">
+            <a href="index.html" class="navigation-link navigation-link-active" id="house"> home </a>
+          </li>
+          <li class="navigation-item">
+            <a href="product.html" class="navigation-link"> gallery </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <main class="main-content">
+        <section class="slides">
+          <div class="slide slide-1" id="slide-1">
+            <a class="slide-down-label" href="#slide-2">
+            <section  id="slide-down-label">
+              <img src="./assets/images/icon-mouse.svg" class="slide-down-label-img" alt="scroll down" />
+              <p class="slide-down-label-text">scroll down</p>
+            </section>
+            </a>
+            <div class="custom-shape-divider-bottom-1698163830">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z"
+                  class="shape-fill"></path>
+              </svg>
+            </div>
+            <div class="left">
+              <div class="left-slide">
+                <h1 class="title-1">Oprec <br>Gamaforce</h1>
+                <a class="description-1">>> Salis Haidar Luthfi</a>
+              </div>
+
+              <a href="#slide-2">
+                <button class="button" href="#slide-2" onclick="move()"><span>Who </span></button>
+              </a>
+            </div>
+            <div class="right-slide">
+              <img src="./assets/images/profile-image.png" alt="profile-img" class="profile-img"></img>
+              <div class="profile-overlay">Salis Haidar</div>
+              <div class="profile"></div>
+              <div class="profile-bg"></div>
+            </div>
+            <div class="rotate-text">
+              <p>SEK<br>OLAH<br>VOK<br>ASI</p>
+            </div>
+          </div>
+          <div class="slide-all">
+            <div class="slide-all-container">
+              <div class="slide slide-2" id="slide-2">
+                <h1 class="slide-headline">About Me</h1>
+                <p class="slide-description">
+                  Perkenalkan, saya Salis Haidar Luthfi dari prodi Teknologi Rekayasa Perangkat Lunak Departemen Teknik
+                  Elektro dan Informatika, Sekolah Vokasi angkatan 23.
+                </p>
+                <div>
+                  <a href="#slide-2" class="slide-details-button">View details</a>
+                </div>
+              </div>
+              <hr />
+              <div class="slide slide-3" id="slide-3">
+                <h1 class="slide-headline">Overview</h1>
+                <p class="slide-description">
+                  Website ini hanya dibuat menggunakan html dan css tanpa menggunakan framework apapun.
+                </p>
+
+                <div>
+                  <a href="#" class="slide-details-button">View details</a>
+                </div>
+              </div>
+              <hr>
+              <div class="slide slide-4" id="slide-4">
+                <h1 class="slide-headline">Leaflet</h1>
+                <div class="slide-4-container">
+                  <p class="slide-description">
+                    Universitas Gadjah Mada lahir dari kancah perjuangan revolusi kemerdekaan bangsa Indonesia.
+                    Didirikan pada periode awal kemerdekaan, UGM didaulat sebagai Balai Nasional Ilmu Pengetahuan dan
+                    Kebudayaan bagi penyelenggaraan pendidikan tinggi nasional.
+                  </p>
+                  <div class="split"></div>
+                  <div id="map"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+      </main>
+
+      <div class="slides-data-main" id="slides-data-main">
+        <section class="slides-data">
+          <div class="slides-data-progress" id="slides-data-progress">
+            <div class="slides-data-progress-line" id="slides-data-progress-line"></div>
+          </div>
+        </section>
+      </div>
+
+
+      <aside class="side-bar" id="side-bar">
+        <header class="side-bar-header">
+          <ul class="side-bar-icons">
+            <li class="side-bar-icons-item">
+              <a href="https://s.id/1g3ab/" class="side-bar-icons-link" target="_blank">
+                <img src="./assets/images/icons-twitterx.svg" class="side-bar-icons-link-img" alt="Twitter" />
+              </a>
+            </li>
+            <li class="side-bar-icons-item">
+              <a href="https://www.instagram.com/salishaidar_/" class="side-bar-icons-link" target="_blank">
+                <img src="./assets/images/icon-instagram.svg" class="side-bar-icons-link-img" alt="Instagram" />
+              </a>
+            </li>
+            <li class="side-bar-icons-item">
+              <a href="#" class="side-bar-icons-link" target="_blank">
+                <img src="./assets/images/icon-youtube.svg" class="side-bar-icons-link-img" alt="Youtube" />
+              </a>
+            </li>
+          </ul>
+        </header>
+        <div class="side-bar-content">
+          <nav class="side-bar-navigation">
+            <ul class="side-bar-list">
+              <li class="side-bar-list-item">
+                <a href="#slide-1" class="side-bar-list-link" id="target1">
+                  <span class="side-bar-list-link-title">Zero</span>
+                  <span class="side-bar-list-link-description">Home</span>
+                </a>
+              </li>
+              <li class="side-bar-list-item">
+                <a href="#slide-2" class="side-bar-list-link" id="target2">
+                  <span class="side-bar-list-link-title">One</span>
+                  <span class="side-bar-list-link-description">About Me</span>
+                </a>
+              </li>
+              <li class="side-bar-list-item">
+                <a href="#slide-3" class="side-bar-list-link" id="target3">
+                  <span class="side-bar-list-link-title">Two</span>
+                  <span class="side-bar-list-link-description">Overview</span>
+                </a>
+              </li>
+              <li class="side-bar-list-item">
+                <a href="#slide-4" class="side-bar-list-link" id="target4">
+                  <span class="side-bar-list-link-title">Three</span>
+                  <span class="side-bar-list-link-description">Leaflet</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <section class="side-bar-video-block">
+            <audio id="audio" preload="none">
+              <source src="./assets/sound/poc-theme.mp3" type="audio/mpeg">
+            </audio>
+            <button class="side-bar-video-button" onclick="audioFunction();">
+              <img src="./assets/images/icon-play-button.svg" class="side-bar-video-button-icon" alt="play music" />
+              <span class="side-bar-video-button-text" id="side-bar-video-button-text">play music</span>
+            </button>
+          </section>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/map.js" type="module"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</body>
+
+</html>

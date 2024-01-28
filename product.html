@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Salis Haidar | Gallery</title>
+  <link rel="shortcut icon" href="./assetsimages/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="css/product.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body data-barba="wrapper">
+  <div class="app">
+    <header class="header" id="main-nav">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" class="logo-img" alt="logo" />
+      </a>
+      <nav class="navigation">
+        <ul class="navigation-list" id="navigation-list">
+          <li class="navigation-item">
+            <a href="index.html" class="navigation-link" id="house"> home </a>
+          </li>
+          <li class="navigation-item">
+            <a href="product.html" class="navigation-link navigation-link-active"> gallery </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <main class="main-content">
+
+        <section class="slides">
+          <div class="slide slide-1">
+            <div class="left-slide-product">
+              <h1 class="title-1">Gallery</h1>
+              <a class="product-descriptions">Buat tambah-tambah</a>
+              <p class="source">image source:  <a href="https://www.transhumans.xyz/">www.transhumans.xyz</a></p>
+            </div>
+
+
+            <div class="right-slide">
+
+              <div class="container">
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="./assets/images/characters/coffee.svg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="./assets/images/characters/jumping.svg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="./assets/images/characters/mask.svg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="./assets/images/characters/meela.svg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="./assets/images/characters/pondering.svg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="./assets/images/characters/roboto.svg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="./assets/images/characters/coffee.svg" style="width:100%"
+                      onclick="currentSlide(1)" alt="Cofee">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./assets/images/characters/jumping.svg" style="width:100%"
+                      onclick="currentSlide(2)" alt="Jump">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./assets/images/characters/mask.svg" style="width:100%"
+                      onclick="currentSlide(3)" alt="Mask">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./assets/images/characters/meela.svg" style="width:100%"
+                      onclick="currentSlide(4)" alt="Meela">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./assets/images/characters/pondering.svg" style="width:100%"
+                      onclick="currentSlide(5)" alt="Pondering">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="./assets/images/characters/roboto.svg" style="width:100%"
+                      onclick="currentSlide(6)" alt="Roboto">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/product.js"></script>
+</body>
+
+</html>
